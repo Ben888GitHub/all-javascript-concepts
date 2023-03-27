@@ -28,3 +28,14 @@ console.log(arr3); // remove the first item of an array
 arr3.unshift('cougar'); // Insert new new item on the first index of an array
 
 console.log(arr3);
+
+arr3.push('hawk');
+
+// * First way to remove array element by its value (using indexOf & splice)
+let index = arr3.indexOf('cougar');
+arr3.splice(index, 1);
+console.log(arr3);
+
+// * Second way to remove array element by its value (using filter)
+let arrFltr = arr3.filter((arr) => arr !== 'bear');
+console.log(arrFltr);
