@@ -11,3 +11,7 @@ https://www.youtube.com/watch?v=wWw1XQgK5pM
 https://www.youtube.com/watch?v=dOyFYACIugc
 
 https://www.freecodecamp.org/news/10-js-util-functions-in-reduce/
+
+https://javascript.plainenglish.io/25-killer-javascript-one-liners-thatll-make-you-look-like-a-pro-d43f08529404
+
+https://javascript.plainenglish.io/19-killer-javascript-one-liners-thatll-make-you-look-like-a-pro-fce9b524e45e
