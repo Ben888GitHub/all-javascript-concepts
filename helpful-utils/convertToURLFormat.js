@@ -1,3 +1,5 @@
+const qs = require('qs');
+
 const slugify = (string, separator = '-') =>
 	string
 		.toString() // Cast to string (optional)
@@ -16,3 +18,14 @@ console.log(output);
 const output_with_underscore = slugify('Hello, World!', '_');
 
 console.log(output_with_underscore);
+
+// * More Advance usages
+
+const url = 'https://medium.com';
+const params = { name: 'fatfish', age: 100 };
+const badOutput = slugify(params.name, params.age);
+console.log(`${url}?${badOutput}`);
+
+// turn to URL
+const goodOutput = qs.stringify(params);
+console.log(`${url}?${goodOutput}`);
