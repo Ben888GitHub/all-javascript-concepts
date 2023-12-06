@@ -7,7 +7,7 @@ const human = {
 	cashInBank: 1000000
 };
 
-// First way of Destructuring
+// * First way of Destructuring
 const printOutFirstHuman = ({
 	name,
 	age,
@@ -48,3 +48,16 @@ const extractKey = 'name';
 const { [extractKey]: data } = productData;
 
 console.log(`data: ${data}`);
+
+// * Another simple destructuring to follow DRY practice
+const name = 'john';
+const age = 25;
+
+const user = {
+	profile: {
+		name,
+		age
+	}
+};
+
+console.log(user);
