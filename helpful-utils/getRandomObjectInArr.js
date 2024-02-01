@@ -20,4 +20,6 @@ const shoppingItems = [
 	}
 ];
 
-console.log(getRandomShoppingItem(shoppingItems));
+const randomItem = getRandomShoppingItem(shoppingItems);
+
+console.log(randomItem);

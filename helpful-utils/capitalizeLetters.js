@@ -10,6 +10,10 @@ const capitalize = (str) => {
 	return capitalizedWords.join(' ');
 };
 
-const capitalValue = capitalize('hello world, this is a test');
+const capitalValue = capitalize('hello world, this is a test'); // Hello World, This Is A Test
 
 console.log(capitalValue);
+
+const str = 'hello world, this is a test';
+const upperCaseStr = str.toUpperCase();
+console.log(upperCaseStr); // "HELLO WORLD, THIS IS A TEST"
